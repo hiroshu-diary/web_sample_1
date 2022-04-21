@@ -156,7 +156,7 @@ aside {
     padding-top: 10px;
 }
 
-.post-data span {
+.post-date span {
     font-size: 1rem;
     border-top: 1px rgba(255, 255,255,.5 ) solid;
     padding-top: 6px;
@@ -212,4 +212,48 @@ aside p {
 
 .sub-menu a:hover {
     color: #0bd;
+}
+
+@media (max-width: 600px) {
+    .page-title {
+        font-size: 2.5rem;
+    }
+    .main-nav {
+        font-size: 1rem;
+    }
+    .main-nav li {
+        margin: 0 20px;
+    }
+    .home-content {
+        margin-top: 20%;
+    }
+    .page-header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .news-contents {
+        flex-direction: column;
+    }
+    article, 
+    aside {
+        width: 100%;
+    }
+
+    #news .page-title {
+        margin-top: 30px;
+    }
+
+    aside {
+        margin-top: 60px;
+    }
+
+    .post-info {
+        margin-bottom: 30px;
+    }
+
+    .post-date {
+        width: 70px;
+        height: 70px;
+        font-size: 1rem;
+    }
 }
