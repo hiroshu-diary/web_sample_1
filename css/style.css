@@ -124,7 +124,7 @@ footer p {
     font-size: 0.875rem;
 }
 
-.rticle {
+article {
     width: 74%;
 }
 
@@ -143,7 +143,7 @@ aside {
     padding-top: 4px;
     margin-bottom: 40px;
 }
-.post-data {
+.post-date {
     background: #0bd;
     border-radius: 50%;
     color: #fff;
@@ -171,7 +171,8 @@ aside {
     font-weight: normal;
 }
 
-.post-title, .post-cat {
+.post-title, 
+.post-cat {
     margin-left: 120px;
 }
 
@@ -181,4 +182,34 @@ article img {
 
 article p {
     margin-bottom: 1rem;
+}
+
+.sub-title {
+    font-size: 1.375rem;
+    padding: 0 8px 8px;
+    border-bottom: 2px #0bd solid;
+    font-weight: normal;
+}
+
+aside p {
+    padding: 12px 10px;
+}
+
+.sub-menu {
+    margin-bottom: 60px;
+    list-style: none;
+}
+
+.sub-menu li {
+    border-bottom: 1px #ddd solid;
+}
+
+.sub-menu a {
+    color: #432;
+    padding: 10px;
+    display: block;
+}
+
+.sub-menu a:hover {
+    color: #0bd;
 }
